@@ -114,8 +114,8 @@ const Editior = () => {
   return (
     <>
       <EditiorNavbar />
-      <div className="flex">
-        <div className={`left w-[${isExpanded ? "100%" : "50%"}]`}>
+      <div className="flex flex-col md:flex-row">
+        <div className={`left w-[100vw] md:w-[${isExpanded ? "100%" : "50%"}]`}>
           <div className="tabs flex items-center justify-between gap-2 w-full bg-[#1A1919] h-[50px] px-[40px]">
             <div className="tabs flex items-center gap-2">
               <div onClick={() => { setTab("html"); }} className="tab cursor-pointer p-[6px] bg-[#1E1E1E] px-[10px] text-[15px]">HTML</div>
