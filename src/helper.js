@@ -10,4 +10,4 @@ export const removeClass = (el, className) => {
   elem.classList.remove(className);
 };
 
-export const api_base_url = "https://online-ide-backend-tzro.onrender.com";
+export const api_base_url = "http://localhost:5000";
